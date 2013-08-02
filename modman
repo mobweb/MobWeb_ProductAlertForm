@@ -1,0 +1,10 @@
+app/code/local/MobWeb/ProductAlertForm app/code/local/MobWeb/ProductAlertForm/
+
+app/locale/de_CH/MobWeb_ProductAlertForm.csv app/locale/de_CH/MobWeb_ProductAlertForm.csv
+
+app/design/frontend/base/default/template/mobweb/productalertform app/design/frontend/base/default/template/mobweb/productalertform/
+
+app/etc/modules/MobWeb_ProductAlertForm.xml app/etc/modules/MobWeb_ProductAlertForm.xml
+
+# Clear the cache
+@shell   rm -rf $PROJECT/var/cache/* && echo "Magento Cache cleared"

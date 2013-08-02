@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <mobweb module="ProductAlertForm">
+            <label>MobWeb Extensions</label>
+            <sort_order>100</sort_order>
+        </mobweb>
+    </tabs>
+    <sections>
+        <productalertform module="ProductAlertForm">
+            <tab>mobweb</tab>
+            <label>Product Alert Form</label>
+            <sort_order>10</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <email_confirmation module="ProductAlertForm">
+                    <label>Email Confirmation</label>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <!-- Access this field via: Mage::getStoreConfig('productalertform/general/custom_option_1') -->
+                        <transactional_email_id>
+                            <label>Transactional Email ID</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_email_template</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </transactional_email_id>
+                        <email_copy_recipient>
+                            <label>Email Copy Recipient</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </email_copy_recipient>
+                    </fields>
+                </email_confirmation>
+            </groups>
+        </productalertform>
+    </sections>
+</config>

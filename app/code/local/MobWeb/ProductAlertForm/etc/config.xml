@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <MobWeb_ProductAlertForm>
+            <version>0.1.0</version>
+        </MobWeb_ProductAlertForm>
+    </modules>
+    <global>
+    	<blocks>
+    		<ProductAlertForm>
+    			<class>MobWeb_ProductAlertForm_Block</class>
+    		</ProductAlertForm>
+    	</blocks>
+    	<helpers>
+    		<ProductAlertForm>
+    			<class>MobWeb_ProductAlertForm_Helper</class>
+    		</ProductAlertForm>
+    	</helpers>
+    </global>
+    <frontend>
+        <routers>
+            <ProductAlertForm>
+                <use>standard</use>
+                <args>
+                    <module>MobWeb_ProductAlertForm</module>
+                    <frontName>product-alert</frontName>
+                </args>
+            </ProductAlertForm>
+        </routers>
+        <translate>
+             <modules>
+                 <MobWeb_ProductAlertForm>
+                     <files>
+                         <default>MobWeb_ProductAlertForm.csv</default>
+                     </files>
+                 </MobWeb_ProductAlertForm>
+             </modules>
+         </translate>
+    </frontend>
+</config>
