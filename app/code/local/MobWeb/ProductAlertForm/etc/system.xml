@@ -31,6 +31,9 @@
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
                             <show_in_store>0</show_in_store>
+                            <comment><![CDATA[
+                                Select the transactional email that will be used to send a confirmation of the product alert request to the customer placing the request as well as the email address specified in the next field. When creating this transactional email, you may use the following variables: <i>manufacturer</i>, <i>model</i>, <i>name</i>, <i>email</i>, <i>comment</i>.
+                            ]]></comment>
                         </transactional_email_id>
                         <email_copy_recipient>
                             <label>Email Copy Recipient</label>
@@ -39,6 +42,9 @@
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
                             <show_in_store>0</show_in_store>
+                            <comment><![CDATA[
+                                Enter an email address that will receive a copy of each outoing email sent to your customers after they filled out the product alert form. If you don't enter an email address here, no confirmation will be sent, and the customer's requests will be lost.
+                            ]]></comment>
                         </email_copy_recipient>
                     </fields>
                 </email_confirmation>
