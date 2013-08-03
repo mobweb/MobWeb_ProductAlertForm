@@ -1,6 +1,8 @@
 app/code/local/MobWeb/ProductAlertForm app/code/local/MobWeb/ProductAlertForm/
 
 app/locale/de_CH/MobWeb_ProductAlertForm.csv app/locale/de_CH/MobWeb_ProductAlertForm.csv
+app/locale/de_DE/MobWeb_ProductAlertForm.csv app/locale/de_DE/MobWeb_ProductAlertForm.csv
+app/locale/fr_FR/MobWeb_ProductAlertForm.csv app/locale/fr_FR/MobWeb_ProductAlertForm.csv
 
 app/design/frontend/base/default/template/mobweb/productalertform app/design/frontend/base/default/template/mobweb/productalertform/
 
