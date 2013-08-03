@@ -30,7 +30,7 @@
                             <sort_order>10</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
-                            <show_in_store>0</show_in_store>
+                            <show_in_store>1</show_in_store>
                             <comment><![CDATA[
                                 Select the transactional email that will be used to send a confirmation of the product alert request to the customer placing the request as well as the email address specified in the next field. When creating this transactional email, you may use the following variables: <i>manufacturer</i>, <i>model</i>, <i>name</i>, <i>email</i>, <i>comment</i>.
                             ]]></comment>
