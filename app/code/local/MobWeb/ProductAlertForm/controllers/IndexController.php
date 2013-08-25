@@ -26,9 +26,9 @@ class MobWeb_ProductAlertForm_IndexController extends Mage_Core_Controller_Front
 				array(
 					'manufacturer' => $parameters['manufacturer'],
 					'model' => $parameters['model'],
-					'name' => $parameters['name'],
-					'email' => $parameters['email'],
-					'comment' => $parameters['comment'],
+					'customer_name' => $parameters['name'],
+					'customer_email' => $parameters['email'],
+					'customer_comment' => $parameters['comment'],
 				),
 				Mage::app()->getStore()->getId()
 			);
@@ -45,9 +45,9 @@ class MobWeb_ProductAlertForm_IndexController extends Mage_Core_Controller_Front
 				array(
 					'manufacturer' => $parameters['manufacturer'],
 					'model' => $parameters['model'],
-					'name' => $parameters['name'],
-					'email' => $parameters['email'],
-					'comment' => $parameters['comment'],
+					'customer_name' => $parameters['name'],
+					'customer_email' => $parameters['email'],
+					'customer_comment' => $parameters['comment'],
 				),
 				Mage::app()->getStore()->getId()
 			);
