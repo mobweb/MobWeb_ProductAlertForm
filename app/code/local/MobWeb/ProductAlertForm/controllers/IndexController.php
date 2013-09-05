@@ -57,7 +57,8 @@ class MobWeb_ProductAlertForm_IndexController extends Mage_Core_Controller_Front
 		}
 
 		// Redirect the user to the front page
-		$this->_redirect('/');
+		$redirect_url = isset($parameters['form_url']) ? $parameters['form_url'] : '/';
+		$this->_redirect($redirect_url);
 	}
 }
 ?>

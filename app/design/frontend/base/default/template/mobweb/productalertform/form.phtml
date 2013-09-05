@@ -58,6 +58,7 @@
     <div class="buttons-set">
         <p class="required"><?php echo Mage::helper('contacts')->__('* Required Fields') ?></p>
         <input type="text" name="hideit" id="hideit" value="" style="display:none !important;" />
+        <input type="hidden" id="form_url" value="<?php echo substr($_SERVER['REQUEST_URI'], 1); ?>" name="form_url" />
         <button type="submit" title="<?php echo Mage::helper('contacts')->__('Submit') ?>" class="button"><span><span><?php echo Mage::helper('contacts')->__('Submit') ?></span></span></button>
     </div>
 </form>
